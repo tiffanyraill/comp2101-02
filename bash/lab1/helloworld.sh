@@ -1,5 +1,4 @@
 #!/bin/bash
-# helloworld.sh - echoes "Hello World"
+# helloworld.sh - Displays Hello world
 
 echo "Hello World"
-
