@@ -6,8 +6,9 @@
 # of the 3 largest files in that directory.
 
 echo -n "In the ~/Pictures directory, there are  "
-find  ~/Pictures -type f | wc -l 
+find  ~/Pictures -type f | wc -l
 echo " files."
+
 echo "=========================================================="
 echo -n "the pictures directory uses "
 du -sh ~/Pictures | awk '{print $1}'
